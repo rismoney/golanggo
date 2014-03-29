@@ -2,8 +2,9 @@ package main
 
 import "fmt"
 
-func add(x,y int) int {
-    return x + y
+
+func add(x,y int) (int, string) {
+    return x + y, "test"
 }
 
 func main() {
